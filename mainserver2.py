@@ -306,8 +306,6 @@ async def embedhelp(ctx):
     await client.say(embed = embed)
 
 
-
-
 client.remove_command('s_approve_list')      
 @client.command(pass_context = True)
 async def s_approval_list(ctx):
